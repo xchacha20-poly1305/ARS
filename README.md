@@ -54,3 +54,7 @@ The output is written to `output/srs/` and `output/mrs/`.
 ## Automated release
 
 `.github/workflows/release.yml` runs daily, on push to `main`, and on manual dispatch. It generates the rule sets, force-pushes them to the `srs` and `mrs` branches, publishes a release with `gh release create`, and deletes releases beyond the latest 10 with `gh release delete`.
+
+# LICENSE
+
+[GPL-3.0-or-later](./LICENSE)
